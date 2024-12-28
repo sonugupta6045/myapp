@@ -1,12 +1,26 @@
 .container {
-  text-align: center;
-  padding: 2rem;
+  width: 1440px;
+  height: 1439.51px;
+  top: 140px;
+  left: 10px;
+  gap: 0px;
+  opacity: 0px;
+
+  /* text-align: center;
+  padding: 2rem; */
   background: linear-gradient(0deg, #121212, #121212),
     linear-gradient(0deg, #171923, #171923),
     linear-gradient(0deg, #171923, #171923);
 }
+.header {
+  width: Fixed (1, 440px) px;
+  height: Hug (425px) px;
+  padding: 80px 220px 0px 220px;
+  gap: 24px;
+  opacity: 0px;
+}
 
-.header h1 {
+.header p {
   width: Hug (1, 000px) px;
   height: Hug (173px) px;
   max-width: 1000px;
@@ -14,27 +28,69 @@
   gap: 0px;
   opacity: 0px;
 }
-.header .highlight {
-  font-family: Outfit;
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 86.4px;
+.header span {
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  /* background: linear-gradient(90deg, #4b83ff 0%, #b794f4 100%); */
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #4b83ff, #b794f4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 1.4rem;
+  /* background: #111; */
+  padding: 0%;
+  color: #fff;
+  font-family: Outfit, Open Sans;
+  max-width: 1440px;
 }
-.header .highlight h1 {
-  background: linear-gradient(90deg, #4b83ff 0%, #b794f4 100%);
+
+.header p2 {
+  width: 720px;
+  height: 45px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-top: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  /* background: #111; */
+  padding: 0%;
+  color: #fff;
+  font-family: Outfit, Open Sans;
+  max-width: 1440px;
 }
 
 .cta-button {
+  margin-left: 70px;
   background-color: #007bff;
   color: white;
   padding: 0.8rem 1.5rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 15rem;
+  height: 3.3rem;
+  /* background: #111; */
+  padding: 0%;
+  color: #fff;
+  font-family: Outfit, Open Sans;
+  max-width: 1440px;
+
+  
+}
+.cta-button .text {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: medium;
 }
 
 .design-container {
@@ -53,13 +109,12 @@
 }
 
 .arc {
-    width: Fixed (300px)px;
-    height: Hug (350px)px;
-    top: 40px;
-    left: 1150px;
-    gap: 0px;
-    opacity: 0px;
-    
+  width: Fixed (300px) px;
+  height: Hug (350px) px;
+  top: 40px;
+  left: 1150px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .flow-design {

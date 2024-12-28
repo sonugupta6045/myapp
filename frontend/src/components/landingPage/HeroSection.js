@@ -5,15 +5,15 @@ const HeroSection = () => {
   return (
     <div className="container">
       <div className="header">
-        <h1>
-          <span className="highlight">Build advanced chatbots</span> visually
-        </h1>
         <p>
+          <span className="highlight">Build advanced chatbots visually</span> 
+        </p>
+        <p2>
           Typebot gives you powerful blocks to create unique chat experiences.
           Embed them anywhere on your web/mobile apps and start collecting
           results like magic.
-        </p>
-        <button className="cta-button">Create a FormBot for free</button>
+        </p2>
+        <button className="cta-button"> <a class="text" href="#">Create a FormBot for free</a></button>
       </div>
       <div className="design-container">
         {/* Triangle image */}
