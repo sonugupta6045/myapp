@@ -1,0 +1,72 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(0deg, #121212, #121212),
+    linear-gradient(0deg, #171923, #171923),
+    linear-gradient(0deg, #171923, #171923);
+}
+
+.header h1 {
+  width: Hug (1, 000px) px;
+  height: Hug (173px) px;
+  max-width: 1000px;
+  padding: 0px 94.91px 0px 94.91px;
+  gap: 0px;
+  opacity: 0px;
+}
+.header .highlight {
+  font-family: Outfit;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /* background: linear-gradient(90deg, #4b83ff 0%, #b794f4 100%); */
+}
+.header .highlight h1 {
+  background: linear-gradient(90deg, #4b83ff 0%, #b794f4 100%);
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.design-container {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.triangle {
+  width: 300px;
+  height: 300px;
+  top: 57.74px;
+  left: 60.35px;
+  gap: 0px;
+  opacity: 0px;
+  rotate: -20 deg;
+}
+
+.arc {
+    width: Fixed (300px)px;
+    height: Hug (350px)px;
+    top: 40px;
+    left: 1150px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.flow-design {
+  margin: 0 auto;
+  display: block;
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
